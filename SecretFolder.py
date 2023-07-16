@@ -25,9 +25,9 @@ line = 1
 while True:
     pw = str(input("Enter the password to convert the folder to recycle bin or recycle bin to folder:\n"))
     if pw == password:
-    # Change Dir Path where you have Recycle bin Folder
+    # Change dir Path where you have Recycle bin Folder
         os.chdir(location)
-    # If Recycle bin folder or Recycle bin does not exist then we will be create Recycle bin Folder 
+    # If Recycle bin folder or Recycle bin does not exist then we will create Recycle bin Folder 
         if not os.path.exists("Recycle bin"):
             if not os.path.exists("Recycle bin.{645ff040-5081-101b-9f08-00aa002f954e}"):
                 os.mkdir("Recycle bin")
