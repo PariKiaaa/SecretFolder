@@ -15,8 +15,8 @@ This Python program allows you to create a concealed secret folder in any direct
 ## Usage
 
 1. Clone this repository or download the files as a zip.
-2. In "LOCATION.txt," specify the directory path where you want the secret folder to be created (e.g., C:\SecretFolder).
-3. In "PASSWORD.txt," set the desired password to secure your secret folder (e.g., Password123).
+2. In "LOCATION.txt" specify the directory path where you want the secret folder to be created (e.g., C:\SecretFolder).
+3. In "PASSWORD.txt" set the desired password to secure your secret folder (e.g., Password123).
 4. Run the Python script (`SecretFolder.py`).
 5. Enter the password to convert the folder to a Recycle Bin and hide its contents.
 6. Re-enter the password to reveal the secret folder and access your files.
